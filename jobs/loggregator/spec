@@ -2,7 +2,8 @@
 name: loggregator
 templates:
   loggregator_ctl.erb: bin/loggregator_ctl
-
+  loggregator.json.erb: config/loggregator.json
+  uaa_token.pub.erb: config/uaa_token.pub
 packages:
 - common
 - loggregator
